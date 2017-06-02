@@ -25,6 +25,7 @@ a {
   transition: all 0.35s;
   color: #F05F40;
 }
+
 a:hover,
 a:focus {
   color: #eb3812;
@@ -415,6 +416,10 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
-.text-left {
-  margin-bottom: 0px;
+#button {
+  margin-bottom: 20px;
+}
+
+#homeHeading {
+  text-shadow: 2px 2px black;
 }

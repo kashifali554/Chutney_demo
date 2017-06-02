@@ -24,6 +24,7 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/creative.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,10 +54,6 @@
                     <!-- about -->
                         <a class="page-scroll" href="#about">Our Story</a>
                     </li>
-<!--                     <li>
-                    <!-- Services -->
-                        <!-- <a class="page-scroll" href="#services">Our Story</a> -->
-                    <!-- </li> -->
                     <li>
                     <!-- Menu -->
                         <a class="page-scroll" href="#menu">Menu</a>
@@ -78,9 +75,9 @@
                 <h1 id="homeHeading">Your Favorite Source of Authentic Indian Pakistani Food</h1>
                 <hr>
                 <p>
-                  <a href="http://eat24hrs.com/restaurants/order2/menu.php?id=1049" target="_blank" class="btn btn-primary btn-xl page-scroll">Order via Eat24</a>
-                  <a href="https://www.ubereats.com/san-francisco/food-delivery/chutney-restaurant/dvx0npyiTfOi49StS9Pm2A/" target="_blank" class="btn btn-primary btn-xl page-scroll">Order via UberEats</a>
-                  <a href="https://www.trycaviar.com/san-francisco/chutney-4411" target="_blank" class="btn btn-primary btn-xl page-scroll">Order via Caviar</a>
+                  <a href="http://eat24hrs.com/restaurants/order2/menu.php?id=1049" target="_blank" class="btn btn-primary btn-xl page-scroll" id="button">Order via Eat24</a>
+                  <a href="https://www.ubereats.com/san-francisco/food-delivery/chutney-restaurant/dvx0npyiTfOi49StS9Pm2A/" target="_blank" class="btn btn-primary btn-xl page-scroll" id="button">Order via UberEats</a>
+                  <a href="https://www.trycaviar.com/san-francisco/chutney-4411" target="_blank" class="btn btn-primary btn-xl page-scroll" id="button">Order via Caviar</a>
                 </p>
             </div>
         </div>
@@ -104,8 +101,9 @@
     <section class="bg-primary" id="menu">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-sm-12 text-center">
-            <h2 class="section-heading">Curries</h2>
+
+          <div class="col-lg-4 col-sm-12">
+            <h2 class="section-heading text-center">Curries</h2>
             <hr class="light">
               <ul>
                 <p class="text-faded text-left">Chicken Curry .................. $8.99</p>
@@ -132,8 +130,8 @@
               <br>
           </div>
 
-          <div class="col-lg-4 col-sm-12 text-center">
-            <h2 class="section-heading">Veggie Curries</h2>
+          <div class="col-lg-4 col-sm-12">
+            <h2 class="section-heading text-center">Veggie Curries</h2>
             <hr class="light">
               <ul>
                 <p class="text-faded text-left">Palak Aloo Methi ...................... $7.49</p>
@@ -154,8 +152,8 @@
               <br>
           </div>
 
-          <div class="col-lg-4 col-sm-12 text-center">
-            <h2 class="section-heading">Tandoori Barbecue</h2>
+          <div class="col-lg-4 col-sm-12">
+            <h2 class="section-heading text-center">Tandoori Barbecue</h2>
             <hr class="light">
               <ul>
                 <p class="text-faded text-left">Seekh Kabab ............................ $2.49</p>
@@ -172,7 +170,7 @@
                 <br>
               </ul>
 
-              <h2 class="section-heading">Biryani</h2>
+              <h2 class="section-heading text-center">Biryani</h2>
               <hr class="light">
               <ul id="text-faded text-center">
                 <p class="text-faded text-left">Chicken Biryani ...................... $8.99</p>
@@ -184,8 +182,8 @@
               </ul>
           </div>
 
-          <div class="col-lg-4 col-sm-12 text-center">
-            <h2 class="section-heading">Naan</h2>
+          <div class="col-lg-4 col-sm-12">
+            <h2 class="section-heading text-center">Naan</h2>
             <hr class="light">
             <ul>
               <p class="text-faded text-left">Naan ................................. $1.00</p>
@@ -197,7 +195,7 @@
               <p class="text-faded text-left">Roti ................................... $1.49</p>
             </ul>
 
-            <h2 class="section-heading">Wraps</h2>
+            <h2 class="section-heading text-center">Wraps</h2>
             <hr class="light">
             <ul id="text-faded text-center">
               <p class="text-faded text-left">Seekh Kabab Wrap .......... $7.49</p>
@@ -208,7 +206,7 @@
               <p class="text-faded text-left">Veggie Wrap .................... $6.49</p>
             </ul>
 
-            <h2 class="section-heading">Drinks</h2>
+            <h2 class="section-heading text-center">Drinks</h2>
             <hr class="light">
             <ul id="text-faded text-center">
               <p class="text-faded text-left">Mango Lassi ..................... $2.50</p>
@@ -217,72 +215,72 @@
               <p class="text-faded text-center">Tea (Free with meal)</p`>
             </ul>
 
-            <h2 class="section-heading">Desserts</h2>
+            <h2 class="section-heading text-center">Desserts</h2>
             <hr class="light">
             <ul id="text-faded text-center">
               <p class="text-faded text-left">Gulab Jamun ..................... $2.00</p>
               <p class="text-faded text-left">Mango Ice Cream ............. $2.00</p>
               <p class="text-faded text-left">Kheer(Rice Pudding) ........ $2.00</p>
               </ul>
-
           </div>
 
-          <div class="col-lg-4 col-sm-12 text-center">
-
-            <h2 class="section-heading">Appetizers</h2>
+          <div class="col-lg-4 col-sm-12">
+            <h2 class="section-heading text-center">Appetizers</h2>
             <hr class="light">
             <ul id="text-faded text-center">
               <p class="text-faded text-left">Vegetable Samosa (2 Pieces) ... $3.99</p>
               <p class="text-faded text-left">Papadams .................................. $1.00</p>
             </ul>
 
-            <h2 class="section-heading">Side Order</h2>
+            <h2 class="section-heading text-center">Side Order</h2>
             <hr class="light">
             <ul id="text-faded text-center">
               <p class="text-faded text-left">Raita  ........................................... $1.00</p>
               <p class="text-faded text-left">Mixed Pickle .............................. $1.50</p>
               <p class="text-faded text-left">Mango Chutney ......................... $1.50</p>
             </ul>
-            <h2 class="section-heading">Daily Specials</h2>
+
+            <h2 class="section-heading text-center">Daily Specials</h2>
             <hr class="light">
             <ul id="text-faded text-center">
-              <p class="text-faded text-center">Chicken Jal Frazi</p>
-              <p class="text-faded text-center">Chicken Keema</p>
-              <p class="text-faded text-center">Haleem</p>
-              <p class="text-faded text-center">Brain Masala</p>
-              <p class="text-faded text-center">Karahi Gosht</p>
-              <p class="text-faded text-center">Karahi Chicken</p>
-              <p class="text-faded text-center">Chicken Kofta Curry</p>
-              <p class="text-faded text-center">Keema Matar</p>
-              <p class="text-faded text-center">Malai Kofta</p>
-              <p class="text-faded text-center">Nihari</p>
-              <p class="text-faded text-center">Trout Fish</p>
+              <p class="text-faded text-left">Chicken Jal Frazi</p>
+              <p class="text-faded text-left">Chicken Keema</p>
+              <p class="text-faded text-left">Haleem</p>
+              <p class="text-faded text-left">Brain Masala</p>
+              <p class="text-faded text-left">Karahi Gosht</p>
+              <p class="text-faded text-left">Karahi Chicken</p>
+              <p class="text-faded text-left">Chicken Kofta Curry</p>
+              <p class="text-faded text-left">Keema Matar</p>
+              <p class="text-faded text-left">Malai Kofta</p>
+              <p class="text-faded text-left">Nihari</p>
+              <p class="text-faded text-left">Trout Fish</p>
             </ul>
           </div>
 
           <div class="col-lg-4 col-sm-12 text-center">
             <h2 class="section-heading">Timing</h2>
             <hr class="light">
-            <ul id="text-faded text-center">
+            <ul id="text-faded">
               <p class="text-faded text-center">11:00 am - 12:00 midnight </p>
             </ul>
 
             <h2 class="section-heading">Address</h2>
             <hr class="light">
-            <ul id="text-faded text-center">
+            <ul id="text-faded">
               <p class="text-faded text-center">511 Jones Street <br> San Francisco,<br> CA 94102 </p>
             </ul>
 
             <h2 class="section-heading">Order Now</h2>
             <hr class="light">
-            <ul id="text-faded text-center">
+            <ul id="text-faded">
               <p>
-                <a href="http://eat24hrs.com/restaurants/order2/menu.php?id=1049" target="_blank" class="btn btn-primary btn-xl page-scroll">Order via Eat24</a>
-                <a href="https://www.ubereats.com/san-francisco/food-delivery/chutney-restaurant/dvx0npyiTfOi49StS9Pm2A/" target="_blank" class="btn btn-primary btn-xl page-scroll">Order via UberEats</a>
-                <a href="https://www.trycaviar.com/san-francisco/chutney-4411" target="_blank" class="btn btn-primary btn-xl page-scroll">Order via Caviar</a>
+                <a href="http://eat24hrs.com/restaurants/order2/menu.php?id=1049" target="_blank" class="btn btn-danger btn-xl page-scroll bg-dark">Order via Eat24</a>
+                </p>
+                <p><a href="https://www.ubereats.com/san-francisco/food-delivery/chutney-restaurant/dvx0npyiTfOi49StS9Pm2A/" target="_blank" class="btn btn-danger btn-xl page-scroll bg-dark">Order via UberEats</a>
+                </p>
+                <p><a href="https://www.trycaviar.com/san-francisco/chutney-4411" target="_blank" class="btn btn-danger btn-xl page-scroll bg-dark">Order via Caviar</a>
               </p>
             </ul>
-
           </div>
 
         </div>
@@ -309,6 +307,13 @@
                     <i class="fa fa-map-marker fa-3x sr-contact"></i>
                     <p>511 Jones Street, San Francisco</p>
                 </div>
+
+<!--                 <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-facebook fa-3x sr-contact"></i>
+                    <i class="fa fa-twitter fa-3x sr-contact"></i>
+                    <i class="fa fa-instagram fa-3x sr-contact"></i>
+                </div> -->
+
             </div>
         </div>
     </section>
