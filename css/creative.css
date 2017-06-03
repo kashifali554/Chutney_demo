@@ -11,6 +11,24 @@ body {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+
+.description {
+  font-size: 10px;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.group {
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+.table {
+  width: 100%;
+}
+
+.temp {
+  border: solid 2px black;
+}
 hr {
   border-color: #F05F40;
   border-width: 3px;
