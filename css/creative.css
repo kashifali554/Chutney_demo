@@ -18,12 +18,15 @@ body {
   padding-bottom: 10px;
 }
 
-.group {
+.dish {
+  width: 80%;
   padding-bottom: 5px;
   font-size: 16px;
 }
-.table {
-  width: 100%;
+.price {
+  width: 20%
+    padding-bottom: 5px;
+  font-size: 16px;
 }
 
 .temp {
